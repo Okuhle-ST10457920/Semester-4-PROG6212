@@ -1,0 +1,1115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(../images/3rdPic.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.mainFundOption {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(../images/1725374435708_etica-y-valores-para-bachillerato.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.mainGuideOption {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(../images/importancia\ alumno.webp);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.mainContactOption {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(../images/pexels-keira-burton-6147369.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.mainAboutOption {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(../images/iStock-1337428689.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.mainBursaryOption {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(../images/7.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200vh;
+}
+
+.mainLoanOption {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(../images/8.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200vh;
+}
+
+.mainLearnershipOption {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(../images/6.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200vh;
+}
+
+.mainSubscribeOption {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(../images/18370.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.icon img {
+    width: 120px;
+    margin-top: 10px;
+}
+
+.logo {
+    color: rgb(19, 19, 65);
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu {
+    width: 360px;
+    float: right;
+    height: 70px;
+}
+
+.menuContact {
+    width: 250px;
+    float: right;
+    height: 70px;
+}
+
+.menuLoan {
+    width:  220px;
+    float: right;
+    height: 70px;
+}
+
+.menuLeanership {
+    width:  300px;
+    float: right;
+    height: 70px;
+}
+
+.heading {
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 43%;
+    justify-content: center;
+}
+
+.heading h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.headingTwo {
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 40.5%;
+    justify-content: center;
+}
+
+.headingTwo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.headingThree {
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 45%;
+    justify-content: center;
+}
+
+.headingThree h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.headingFour {
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 39.5%;
+    justify-content: center;
+}
+
+.headingFour h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 65px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: rgb(16, 16, 124);
+}
+
+.currentPage {
+    color: rgb(0, 4, 255);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.funding {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.funding h1{
+    font-family: Arial;
+    font-size: 35px;
+    text-align: center;
+}
+
+.funding-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.funding-col img{
+    display: block;
+    height: 600px;
+}
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.layer:hover {
+    background: rgba(15, 0, 226, 0.795);
+}
+
+.layer h3 a{
+    width: 100%;
+    color: white;
+    transform: translateX(-50%);
+    font-weight: 500;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.layer:hover h3 a{
+    bottom: 49%;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.layerBursary {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.layerBursary:hover {
+    bottom: 49%;
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(15, 0, 226, 0.795);
+}
+
+.layerBursary h3 a{
+    width: 100%;
+    color: white;
+    transform: translateX(-50%);
+    font-weight: 500;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.layerBursary:hover h3 a{
+    bottom: 49%;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.content .par {
+    padding-left: 30px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    font-family: Arial;
+    letter-spacing: 1.3px;
+    line-height: 30px;
+}
+
+.content h1 {
+    font-family: Arial;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 10%;
+    letter-spacing: 2px;
+}
+
+.guideContent {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: black;
+    position: relative;
+}
+
+.guideContent h1 {
+    font-family: Arial;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.guideContent h3{
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 20%;
+    margin-top: 5%;
+    letter-spacing: 1px;
+    float: left;
+}
+
+.aboutHeader{
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 20%;
+    margin-top: 5%;
+    letter-spacing: 1px;
+    float: left;  
+    margin-left: -130px;
+}
+
+.aboutHeaderTwo{
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    margin-left: -130px;
+    margin-bottom: 20px;
+}
+
+.contactHeader{
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 20%;
+    margin-top: 5%;
+    letter-spacing: 1px;
+    float: left;  
+    margin-left: -90px;
+}
+
+.stylePar{
+    font-weight: 600;
+}
+
+.guideContent p.par {
+    padding-left: 30px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.3px;
+    line-height: 30px;
+}
+
+.guideOptions {
+    width: 80%;
+    margin: auto;
+    margin-top: 0;
+    float: left;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.guideOptions img{
+    float: right;
+    display: flex;
+    justify-content: right;
+    margin-right: -230px;
+    margin-top: -350px;
+    width: 480px;
+}
+
+.guideAbout {
+    width: 80%;
+    margin: auto;
+    margin-top: 0;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    margin-bottom: -20px;
+}
+
+.guideAbout img{
+    float: right;
+    display: flex;
+    justify-content: right;
+    margin-right: -230px;
+    margin-top: -230px;
+    width: 480px;
+    height: 650px;
+}
+
+.guideContact{
+    width: 80%;
+    margin: auto;
+    margin-top: 0;
+    float: left;
+    padding-top: 20px;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.guideContact iframe{
+    float: right;
+    display: flex;
+    justify-content: right;
+    margin-right: -150px;
+    margin-top: -410px;
+    width: 530px;
+    height: 430px;  
+}
+
+.guideContact img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.guideContact p.par {
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.3px;
+    line-height: 30px;
+}
+
+
+.guideFooter{
+    width: 100%;
+    margin: auto;
+    margin-top: 0;
+    float: left;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.guideFooterBursary{
+    width: 100%;
+    margin: auto;
+    margin-top: 0;
+    float: left;
+    justify-content: center;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.cn {
+    width: 160px;
+    height: 40px;
+    background: darkblue;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.cn a {
+    text-decoration: none;
+    color: white;
+    transition: .3s ease;
+}
+
+.cn:hover {
+    background-color: lightslategray;
+}
+
+.content span {
+    color: darkblue;
+    font-size: 60px;
+}
+
+.form {
+    width: 220px;
+    font-family: sans-serif;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.774)50%, rgba(0, 0, 0, 0.774)50%);
+    position: absolute;
+    top: 30px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 28px;
+}
+
+.form h2 {
+    width: 210px;
+    font-family: sans-serif;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    border-radius: 18px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: rgb(0, 4, 255);
+    transition: 0.5s ease;
+}
+
+.form .link a:hover {
+    color: lightslategray;
+}
+
+.icon a {
+    text-decoration: none;
+    color: white;
+}
+
+.icon ion-icon {
+    color: white;
+    font-size: 30px;
+    padding-left: 16px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icon ion-icon:hover {
+    color: darkblue;
+}
+
+.options {
+    width: 80%;
+    margin: auto;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 90px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: Arial;
+}
+
+.paragraph {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    font-family: Arial;
+    letter-spacing: 1.3px;
+    line-height: 30px;
+}
+
+.paragraphBursary {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-top: 220px;
+    padding: 10px;
+    font-family: Arial;
+    letter-spacing: 1.3px;
+    line-height: 30px;
+    color: white;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.option-col {
+    flex-basis: 31%;
+    background: rgb(44, 44, 168);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.option-col:hover {
+    box-shadow: 0 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.icon a {
+    text-decoration: none;
+    color: white;
+}
+
+.icon ion-icon {
+    color: white;
+    font-size: 30px;
+    padding-left: 16px;
+    padding-top: 9px;
+    transition: 0.3s ease;
+}
+
+.icon ion-icon:hover {
+    color: darkblue;
+}
+
+.testimonials {
+    width: 80%;
+    margin: auto;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.testimonial-col {
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: rgb(44, 44, 168);
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+
+.testimonial-col img {
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.testimonial-col p {
+    padding: 0;
+}
+
+.testimonial-col h3 {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.cta {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/2245206.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta h1 {
+    color: white;
+    margin-top: 40px;
+    font-size: 30px;
+    padding: 0;
+}
+
+.cta .cn {
+    margin-top: 30px;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: darkblue;
+}
+
+.footer h4 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.stars{
+    font-size: 30px;
+    color: gold;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.subscribe-form {
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+
+.subscribe-col input, .subscribe-col textarea{
+    margin: 15px;
+    outline: none;
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 17px;
+    box-sizing: border-box;
+    background: #f0f0f0;
+    border: none;
+}
+
+.bursaries {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.bursaries-col {
+    flex-basis: 31%;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.bursaries-col img {
+    width: 100%;
+    border-radius: 10px;
+    height: 60vh;
+}
+
+.p-positioning {
+    text-align: center;
+    color: white;
+    margin-bottom: -50px;
+}
+
+.bursary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.bursary h1 {
+    background-color: blue;
+    background-image: linear-gradient(
+        to right,
+        rgb(255, 254, 254) 100%
+    );
+    background-size: 100%;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    font-size: 22px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bursary_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bursary_card {
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    margin-top: 3rem;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(17, 17, 17, 0.6) 100%
+    ),
+    url('/images/1.jpg');
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.bursary_card:nth-child(2) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(17, 17, 17, 0.6) 100%
+    ),
+    url('/images/10.jpg');
+}
+
+.bursary_card:nth-child(3) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(17, 17, 17, 0.6) 100%
+    ),
+    url('/images/11.jpg');
+}
+
+.bursary h2 {
+    position: absolute;
+    top: 350px;
+    left: 30px;
+}
+
+.bursary_card p {
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+
+.bursary_card button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: blue;
+    position: absolute;
+    top: 440px;
+    left: 30px;
+    font-size: 1rem;
+}
+
+.bursary_card button a {
+    text-decoration: none;
+    color: white;
+}
+
+.bursary_card:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.bursary_card button:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    background: rgb(106, 106, 231);
+}
+
+.loan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.loan h1 {
+    background-color: blue;
+    background-image: linear-gradient(
+        to right,
+        rgb(255, 254, 254) 100%
+    );
+    background-size: 100%;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    font-size: 22px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.loan_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.loan_card {
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    margin-top: 3rem;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(17, 17, 17, 0.6) 100%
+    ),
+    url('/images/12.jpg');
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.loan_card:nth-child(2) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(17, 17, 17, 0.6) 100%
+    ),
+    url('/images/13.jpg');
+}
+
+.loan_card:nth-child(3) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(17, 17, 17, 0.6) 100%
+    ),
+    url('/images/14.jpg');
+}
+
+.loan h2 {
+    position: absolute;
+    top: 350px;
+    left: 30px;
+}
+
+.loan_card p {
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+
+.loan_card button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: blue;
+    position: absolute;
+    top: 440px;
+    left: 30px;
+    font-size: 1rem;
+}
+
+.loan_card button a {
+    text-decoration: none;
+    color: white;
+}
+
+.loan_card:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.loan_card button:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    background: rgb(106, 106, 231);
+}
+
+.learnership {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.learnership h1 {
+    background-color: blue;
+    background-image: linear-gradient(
+        to right,
+        rgb(255, 254, 254) 100%
+    );
+    background-size: 100%;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    font-size: 22px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.learnership_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.learnership_card {
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    margin-top: 3rem;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(17, 17, 17, 0.6) 100%
+    ),
+    url('/images/15.jpg');
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.learnership_card:nth-child(2) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(17, 17, 17, 0.6) 100%
+    ),
+    url('/images/16.jpg');
+}
+
+.learnership_card:nth-child(3) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(17, 17, 17, 0.6) 100%
+    ),
+    url('/images/17.jpg');
+}
+
+.learnership h2 {
+    position: absolute;
+    top: 350px;
+    left: 30px;
+}
+
+.learnership_card p {
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+
+.learnership_card button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: blue;
+    position: absolute;
+    top: 440px;
+    left: 30px;
+    font-size: 1rem;
+}
+
+.learnership_card button a {
+    text-decoration: none;
+    color: white;
+}
+
+.learnership_card:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.learnership_card button:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    background: rgb(106, 106, 231);
+}
+

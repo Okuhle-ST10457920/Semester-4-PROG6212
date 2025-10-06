@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Fund SA | Subscribe</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="JavaScript" href="scripts/scripts.js">
+</head>
+<body>
+    <section>
+        <div class="mainSubscribeOption">
+            <div class="navbar">
+                <div class="icon">
+                    <h2>
+                        <img src="images/student funding logo with the title Student Fund SA.jpeg">
+                    </h2>
+                </div>
+
+                <div class="menuContact">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li class="currentPage">Subscribe</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="headingTwo">
+                <h1>Subscribe</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="funding">
+        <h1>Subscribe to the newsletter</h1>
+        <div class="subscribe-col">
+            <form name="myForm" action="formHandler.php" class="subscribe-form" method="post" onsubmit="return validation()">
+                <p class="paragraph">Make sure to enter all the required input</p>
+                <input type="text" name="firstName" placeholder="Enter your full name" required>
+                <input type="text" name="phoneNumber" placeholder="Enter your phone number" required>
+                <input type="email" name="email" placeholder="Enter email address" required>
+                <textarea rows="8" name="message" placeholder="Description" required></textarea>
+                <button type="submit" class="cn" onclick="validation()"><a>Submit</a></button>
+            </form>
+        </div>
+    </section>
+
+    <section class="copyright">
+        <div class="guideFooter">
+            <p class="paragraph">No part of this publication may be reproduced, distributed, or transmitted in any form
+                or by any means, including photocopying, recording or other electronic or mechanical methods,
+                <br>without the prior written permission of the publisher, except in the case of brief quotations
+                embodied in critical reviews and certain other noncommercial uses
+                <br>permitted by copyright law.
+            </p>
+            <div class="footer">
+                <h4>Copyright © 2025 Student Fund SA. All rights reserved</h4>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
